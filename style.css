@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+ 	margin: 0 auto;
+ 	line-height: 1.4;
+}
+header {
+	background-color: lavenderblush;
+}
+header h1{
+	text-align: center;
+}
+.col-3{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.col-2{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+}
+header h1{
+	font-family: 'Times New Roman','Times';
+}
+
+section{
+	padding: 1em;
+	border: 1px solid grey;
+}
+.serif{
+	font-family: Georgia, seriff;
+}
+.monotype{
+	font-family: 'Courier New', Courier, monospace;
+}
+.PalaTino{
+	font-family: "Palatino',"Book Antiqua",Palatino, serif"
+}
+.fyrirsogn{
+	background-color: green;
+}
+
+
+.fyrirsog h1{
+	font-family: Impact,"Arial-Black", sans-serif;
+	font-size: 5em;
+	text-align: center;
+}
+.comic{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.arialBlack{
+	font-family: "Arial-Black", "Gadget", sans-serif
+}
+.raudur{
+	color: red;
+}
+.h6{
+	font-size: 0.6em;
+	letter-spacing: 0.04em
+	line-height:1.5;
+	font-weight: 400;
+}
